@@ -30,7 +30,9 @@ h2 {
 
 /*--- Start Image Slider --*/
 .orbit {
-	padding:10px 100px 0 100px;
+	padding:10px 10px 0 10px;
+	max-width: 850px;
+	margin: auto;
 }
 .orbit-image {
 	height: 450px;
@@ -41,4 +43,3 @@ h2 {
 	font-size: 14px;
 }
 /* End Image Slider */
-
