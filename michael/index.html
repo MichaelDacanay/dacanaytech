@@ -8,32 +8,26 @@
 
     <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.3/motion-ui.min.css">
-
     <link rel="stylesheet" type="text/css" href="app.css"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
     <script src="https://kit.fontawesome.com/8b4eb4a957.js" crossorigin="anonymous"></script>
-	
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 </head>
 <body>
     <header>
-        <div id="logo">
-            <img src="logo.png" style="height: 110%;">
-        </div>
-
-        <h1 style="height: 70%; text-align: center; padding-right: 10%; top: 50%;">Michael Dacanay</h1>
-		
-		<nav class="hover-underline-menu" style="height:50%;" data-menu-underline-from-center>
-		    <ul class="menu align-center">
-                <li><a href="">Home</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="./technical-resume.pdf">Resume</a><li></li>
-            </ul>
-        </nav>
+        <span><img src="logo.png" id="logo"></span>
+        <h1 id="heading">Michael Dacanay</h1>
     </header>
+    <nav class="hover-underline-menu" data-menu-underline-from-center>
+        <ul class="menu align-center">
+            <li><a href="">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="./technical-resume.pdf">Resume</a><li></li>
+        </ul>
+    </nav>
 
     <div id="content">
-        <h1 style="padding-top: 30px;">Home</h1>
+        <h1 style="padding-top: 10px;">Home</h1>
         <h2 style="font-size: 30px;">About me</h2>
         <p>As of Fall 2019, I am a first year student at NC State University, majoring in 
         Computer Science. I enjoy spending time with my family and meeting new friends. 
@@ -125,24 +119,22 @@
     </div>
 
     <footer>
-        <div style="padding: 10px;">
+        <div style="padding: 10px; ">
             <div id="contact">
                 <ul style="list-style-type: none;">
                     <li><a href="mailto:mzdacana@ncsu.edu" id="contact-item"><i class="fas fa-envelope"></i> mzdacana@ncsu.edu</a></li>
                     <li><a href="https://www.linkedin.com/in/michael-dacanay/" id="contact-item"><i class="fab fa-linkedin"></i> linkedin.com/in/michael-dacanay</a></li>
-                    <li><a href="https://github.ncsu.edu/mzdacana" id="contact-item"><i class="fab fa-github-square"></i> github.ncsu.edu/mzdacana</a></li>
+                    <li><a href="https://github.com/MichaelDacanay" id="contact-item"><i class="fab fa-github-square"></i> github.com/MichaelDacanay</a></li>
                 </ul>
             </div>
-            <div style="float:right;">
-                <h2>Copyright © 2019 Michael Dacanay</h2>
+            <div id="copyright">
+                <h2>Copyright © 2020</h2>
             </div>
         </div>
     </footer>
 
-
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-
     <script>
         $(document).foundation();
     </script>
